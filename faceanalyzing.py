@@ -1,10 +1,3 @@
-from deepface import DeepFace
-img_path = 'cansu.jpeg'
-resp = DeepFace.analyze(img_path, ("emotion")) 
-print(resp)
-
-
-
 import cv2
 from deepface import DeepFace
 
